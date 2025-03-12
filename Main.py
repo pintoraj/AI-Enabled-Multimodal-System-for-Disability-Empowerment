@@ -12,7 +12,7 @@ import pickle
 import cv2
 import mediapipe as mp
 import numpy as np
-git rm --cached Main.py
+
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voices', voices[1].id)
