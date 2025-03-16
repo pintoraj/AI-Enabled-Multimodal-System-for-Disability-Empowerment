@@ -3,3 +3,7 @@ mediapipe
 scikit-learn
 pyautogui
 SpeechRecognition
+pyjokes
+openai
+winshell
+wikipedia
