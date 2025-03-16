@@ -55,3 +55,5 @@ for j in range(number_of_classes):
 # Release the webcam resource and close all OpenCV windows
 cap.release()
 cv2.destroyAllWindows()
+
+# Added commands for better understanding 
