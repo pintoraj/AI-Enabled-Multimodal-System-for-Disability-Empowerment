@@ -1,6 +1,6 @@
 from re import S
 import pyttsx3
-import speech_recognition as sr
+import SpeechRecongition as sr #pip install SpeechRecognition for newer python versions
 import pyautogui 
 import os
 import keyboard
