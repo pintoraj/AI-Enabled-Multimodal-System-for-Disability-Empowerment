@@ -1,7 +1,7 @@
 import datetime
 import time
 import os
-import speech_recognition as sr
+import speech_recognition as sr # install SpeechRecognition package , the speech_recognition has been outdated/deprecated
 
 def set_alarm():
     r = sr.Recognizer()
@@ -27,7 +27,7 @@ def set_alarm():
         time.sleep(time_delta.seconds)
         # play the alarm sound
         print("Alarm!")
-        os.system("E:\\JARVIS_AI\\DataBase\\Sounds\\1.mp3")  # replace with the command to play the sound file
+        os.system("E:\\JARVIS_AI\\DataBase\\Sounds\\1.mp3")  #wrong dir this is, replace with the command to play the sound file
         while True:
             snooze = input("Enter 'snooze' to snooze the alarm for 5 minutes, or 'stop' to turn it off: ")
             if snooze == "stop":
