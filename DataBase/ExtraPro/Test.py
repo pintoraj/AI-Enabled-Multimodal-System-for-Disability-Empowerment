@@ -1,5 +1,5 @@
 from time import sleep
-import pyautogui #pip install pip autogui
+import pyautogui # type: ignore #pip install pip autogui
 
 sleep(4)
 
